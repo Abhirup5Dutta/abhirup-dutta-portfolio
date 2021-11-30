@@ -13,6 +13,8 @@ import {
   Span,
 } from "./HeaderStyles";
 
+const prefix = "/abhirup-dutta-portfolio";
+
 const Header = () => (
   <Container>
     <Div1>
@@ -32,17 +34,17 @@ const Header = () => (
     </Div1>
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link href={prefix + "#projects"}>
           <NavLink>Projects</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#tech">
+        <Link href={prefix + "#tech"}>
           <NavLink>Technologies</NavLink>
         </Link>
       </li>
       <li>
-        <Link href="#about">
+        <Link href={prefix + "#about"}>
           <NavLink>About</NavLink>
         </Link>
       </li>

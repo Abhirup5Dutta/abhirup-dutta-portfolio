@@ -8,6 +8,8 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
+const prefix = "/abhirup-dutta-portfolio";
+
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
@@ -22,8 +24,7 @@ const Hero = () => (
       </SectionText>
       <Button
         onClick={() =>
-          (window.location =
-            "https://drive.google.com/file/d/15NifuND3XaXSF2EOYiqDFJ1hCazgisOs/view?usp=sharing")
+          (window.location = `https://drive.google.com/file/d/15NifuND3XaXSF2EOYiqDFJ1hCazgisOs/view?usp=sharing`)
         }
       >
         My CV
