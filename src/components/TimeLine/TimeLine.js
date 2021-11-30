@@ -21,6 +21,8 @@ import { TimeLineData } from "../../constants/constants";
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
+const prefix = "/abhirup-dutta-portfolio";
+
 const Timeline = () => {
   const [activeItem, setActiveItem] = useState(0);
   const carouselRef = useRef();
@@ -64,7 +66,7 @@ const Timeline = () => {
   }, []);
 
   return (
-    <Section id="about">
+    <Section id={prefix + "about"}>
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
         Hello there, I am Abhirup Dutta, currently in the third year of my

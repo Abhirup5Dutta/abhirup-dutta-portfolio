@@ -20,8 +20,10 @@ import {
 } from "../../styles/GlobalComponents";
 import { projects } from "../../constants/constants";
 
+const prefix = "/abhirup-dutta-portfolio";
+
 const Projects = () => (
-  <Section nopadding id="projects">
+  <Section nopadding id={prefix + "projects"}>
     <SectionDivider />
     <SectionTitle main>Projects</SectionTitle>
     <GridContainer>

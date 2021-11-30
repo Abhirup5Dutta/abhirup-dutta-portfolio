@@ -8,8 +8,6 @@ import {
 import Button from "../../styles/GlobalComponents/Button";
 import { LeftSection } from "./HeroStyles";
 
-const prefix = "/abhirup-dutta-portfolio";
-
 const Hero = () => (
   <Section row nopadding>
     <LeftSection>
