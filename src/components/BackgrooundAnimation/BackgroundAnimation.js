@@ -1,8 +1,23 @@
 import React from "react";
 
+const prefix = "/abhirup-dutta-portfolio";
+
 const BackgroundAnimation = () => (
   <div>
-    <img src="/images/myselfNew.png" alt="DP" style={{ position: 'absolute', top: '-0.8rem', right: '-1%', zIndex: '-1', objectFit: 'contain', width: '40rem', height: '60rem', opacity: '0.5' }} />
+    <img
+      src={prefix + "/images/myselfNew.png"}
+      alt="DP"
+      style={{
+        position: "absolute",
+        top: "-0.8rem",
+        right: "-1%",
+        zIndex: "-1",
+        objectFit: "contain",
+        width: "40rem",
+        height: "60rem",
+        opacity: "0.5",
+      }}
+    />
     <svg
       className="BgAnimation__svg"
       viewBox="0 0 602 602"
